@@ -1,0 +1,67 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@700&display=swap');
+
+/* common style */
+.the-arth {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top section */
+body {
+    background: #FFFFFF;
+}
+
+.main-part {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex;
+    color: white;
+    background-color: #161616;
+    height: 646px;
+    width: 1120px;
+    left: 140px;
+    top: 50px;
+    border-radius: 30px;
+
+
+}
+
+.top-section {
+    width: 50%;
+    font-weight: 300;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.the-arth {
+    font-size: 70px;
+}
+
+.top-section img {
+    width: 100%;
+}
+
+.watch-button {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+/* blog part style */
+.icon,
+.chat {
+    display: flex;
+}
+
+.icon-image {
+    display: flex;
+    gap: 40px;
+}
